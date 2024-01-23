@@ -1,0 +1,27 @@
+.header img{
+    height: 80px;
+    background: linear-gradient(rgb(37, 168, 44),rgb(0, 38, 255));
+    padding: 1rem;
+    border-radius: 0 0 .5rem .5rem;
+ 
+}
+.header{
+    text-align: center;
+    border-bottom: 3px solid rebeccapurple; 
+}
+.header nav {
+    background-color: black;
+    line-height: 40px;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 20px;
+    padding: 5px;
+}
+nav a:hover{
+    background-color: gray;
+    color: aqua;
+
+}
