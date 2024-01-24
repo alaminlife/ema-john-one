@@ -13,13 +13,14 @@ const Shops = () => {
         <div className='shops-container'>
             <div className='product-container'>
             {
-                products.map(product => <Product product={pd}></Product>)
+                products.map(pd => <Product product={pd}></Product>)
             }
 
             </div>
 
             <div className='cart-container'>
                 <h4>This is cart</h4>
+                <p>Jamapur Mymensingh Dhaka Bangladesh</p>
 
             </div>
             
